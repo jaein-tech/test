@@ -29,7 +29,8 @@ public class SwitchExam {
 			case "D":
 				System.out.println("D");
 				break;
-			case "G": {
+			case "G": //case 여러줄 사용가능
+			case "H": { 
 				System.out.println("G");
 				break;
 			}
