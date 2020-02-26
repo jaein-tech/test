@@ -25,18 +25,18 @@ public class Myclass {
 	
 	// 아무값도 받아들이지 않았지만 뭔가를 수행해서 값을 돌려주는 경우
 	public int method3() {
-		System.out.println("m3이 시ㄹ행");
+		System.out.println("m3이 실행");
 		return 10;
 	}
 	
 	// int값을 2개 받아들이고 return 하지 않는경우
 	public void method4(int x, int y) {
-		System.out.println(x + y + "를 이용한m4 실행");
+		System.out.println(x + y + "를 이용한 m4 실행");
 	}
 	
 	// int값을 받아들이고 int를 return 하는 경우
 	public int method5(int u) {
-		System.out.println(u + "를 이용한 m5 실행");
+		System.out.println(u + "를 이용한  m5 실행");
 		return u+2;
 	}
 	
