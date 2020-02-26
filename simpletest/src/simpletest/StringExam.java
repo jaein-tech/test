@@ -12,11 +12,11 @@ public class StringExam {
 		String str3 = new String("hello");
 		// 변수들이 저장되는 값에 저장됨.
 		
-		if (str1 == str2)
+		if (str1 == str2) // str1.equals(str2)도 ==와 값은 결과를 낸다.
 			System.out.println("str1과 str2는 같인 레퍼런스 입니다.");
 		
 		
-		if (str2 == str3) {
+		if (str2 == str3) { 
 			System.out.println("str2와 str3은 같인 레퍼런스 입니다.");
 		}else {
 			System.out.println("str2와 str3은 다른 레퍼런스 입니다.");
