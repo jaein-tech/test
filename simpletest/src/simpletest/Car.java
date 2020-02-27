@@ -10,7 +10,12 @@ public class Car {
 	
 	// 아래 바로 생성자를 만들어본다.
 	
-	public Car(String n) {
-		name = n;
+	public Car(String name) {
+		this.name = name;
 	}
+	
+	// 객체 자신을 참조하는 this
+	// this.methodName
+	
+	
 }
