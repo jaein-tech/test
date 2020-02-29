@@ -2,7 +2,7 @@ package simpletest;
 
 public class Truck extends Car3 {
 	public Truck() {
-		super("트레일러"); // 컴파일러는 자동으로 이 생성자를 생성한다. 부모의 생성자 호출
+		super("트럭"); // 컴파일러는 자동으로 이 생성자를 생성한다. 부모의 생성자 호출
 
 //		super();
 		
@@ -24,6 +24,10 @@ public class Truck extends Car3 {
 // 		또한 부모의 메소드도 사라지지 않고 같이 호출이 된다.
 		
 		System.out.println("Truck의 run method");
+	}
+	
+	public void stop() {
+		System.out.println("정지");
 	}
 	
 }
