@@ -12,5 +12,18 @@ public class Truck extends Car3 {
 //		super()로 이름을 받는 부모의 생성자를 호출해줘야 오류가 발생하지 않는다.
 		
 		System.out.println("Truck의 기본 생성자 입니다.");
+
 	}
+	
+
+//	Overriding
+//	부모가 가지고 있는 method를 자식이 가져와 재정의 하는것
+	public void run() {
+		super.run();
+//		위와같이 super를 통해 명시적으로 호출을 해주면 부모가 가진 run 메소드도 실행이 가능하다.
+// 		또한 부모의 메소드도 사라지지 않고 같이 호출이 된다.
+		
+		System.out.println("Truck의 run method");
+	}
+	
 }
